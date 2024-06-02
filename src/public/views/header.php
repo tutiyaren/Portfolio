@@ -17,7 +17,7 @@
       <nav class="header-nav">
         <ul class="header-ul">
           <li class="header-list home"><a href="/" class="home-link">Home</a></li>
-          <li class="header-list business"><a href="/views/business.php" class="business-link">Business</a></li>
+          <li class="header-list business"><a href="/views/business.php" class="business-link">Works</a></li>
         </ul>
       </nav>
     </div>
