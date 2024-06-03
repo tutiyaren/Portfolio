@@ -1,0 +1,36 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1500px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.header-title {
+  font-size: 3.5vw;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
+.header-ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.header-list {
+  font-weight: bold;
+  font-size: 2vw;
+}
+.business {
+  margin-left: 15%;
+}
+.home-link,
+.business-link {
+  text-decoration: none;
+  color: #000;
+}

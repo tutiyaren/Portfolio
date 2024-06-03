@@ -42,7 +42,11 @@ git@github.com:tech-quest/docker-template.git
 
 [localhost:8080](http://localhost:8080)
 
+<br>
+
 ### PHPMyAdmin
+
+【localhost:3306】のURLを開くと、【PHPMyAdmin】が表示されます。
 
 [localhost:3306](http://localhost:3306)
 

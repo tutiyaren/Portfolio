@@ -1,0 +1,100 @@
+.main {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../image/topBack.jpg") center/cover no-repeat;
+  opacity: 0.2;
+  z-index: -1;
+  clip-path: circle(50%);
+  animation: index 10s infinite;
+}
+@keyframes index {
+  0%, 100% {
+    clip-path: circle(5%);
+  }
+  50% {
+    clip-path: circle(60%);
+  }
+}
+.myProfile {
+  margin-top: 15%;
+  margin-left: 6%;
+}
+.myProfile-name {
+  margin-top: 0;
+  font-size: 2.5vw;
+}
+.myProfile-birthday {
+  font-size: 1.5vw;
+}
+.myLike {
+  margin-top: 15%;
+  margin-right: 10%;
+}
+.myLike-title {
+  margin-top: 0;
+  font-size: 2.2vw;
+}
+.myLike-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5vw;
+  line-height: 200%;
+}
+.myLike-list__indoor,
+.myLike-list__food,
+.myLike-list__move {
+  border-bottom: 2px solid #00fff7;
+}
+
+@media (max-width: 1201px) {
+  .main {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    height: 50vh;
+  }
+  .myProfile {
+    margin-top: 22%;
+    margin-left: 4.5%;
+  }
+  .myLike {
+    margin-top: 22%;
+    margin-right: 4.5%;
+  }
+}
+
+@media (max-width: 576px) {
+  .main {
+    height: 40vh;
+  }
+  .myProfile {
+    margin-top: 30%;
+    margin-left: 3%;
+  }
+  .myLike {
+    margin-top: 30%;
+    margin-right: 3%;
+  }
+}
+
+@media (max-width: 481px) {
+  .main {
+    height: 30vh;
+  }
+}
+
