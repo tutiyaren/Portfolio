@@ -18,11 +18,68 @@
   z-index: -1;
   clip-path: polygon(
     50% 5%,
-    95% 50%,
-    50% 95%,
-    5% 50%
+    95% 40%,
+    60% 95%,
+    40% 95%,
+    5% 40%
   );
 }
+
+.appPhp-title,
+.appLaravel-title {
+  font-size: 2.1vw;
+  text-shadow: 1px 1px #000;
+}
+/* PHP */
+.appPhp {
+  margin-top: 7%;
+  margin-left: 10%;
+}
+.appPhp-top,
+.appPhp-bottom {
+  display: flex;
+}
+.appPhp-memo,
+.appPhp-blog {
+  margin-right: 7%;
+}
+.appPhp-memo__link,
+.appPhp-todo__link,
+.appPhp-blog__link,
+.appPhp-expenses__link {
+  text-decoration: none;
+  font-size: 1.8vw;
+  color: #424242;
+  text-shadow: 1px 1px #00fff7;
+  font-weight: bold;
+}
+
+/* Laravel */
+.appLaravel {
+  margin-top: 7%;
+  margin-right: 10%;
+}
+.appLaravel-top,
+.appLaravel-middle,
+.appLaravel-bottom {
+  display: flex;
+}
+.appLaravel-memo,
+.appLaravel-blog {
+  margin-right: 7%;
+}
+.appLaravel-memo__link,
+.appLaravel-todo__link,
+.appLaravel-blog__link,
+.appLaravel-expenses__link,
+.appLaravel-dHub__link {
+  text-decoration: none;
+  font-size: 1.8vw;
+  color: #424242;
+  text-shadow: 1px 1px #00fff7;
+  font-weight: bold;
+}
+
 
 
 @media (max-width: 1201px) {
