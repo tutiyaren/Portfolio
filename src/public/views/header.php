@@ -46,5 +46,6 @@
   </dialog>
   
   <script src="../js/myDetail.js"></script>
+  <script src="../js/history.js"></script>
 </body>
 </html>

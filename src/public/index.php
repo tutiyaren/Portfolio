@@ -20,4 +20,21 @@
     </p>
   </div>
 
+  <dialog class="modal">
+    <table class="modal-inner">
+      <tr class="history">
+        <th class="history-title">専門学校</th>
+        <td class="history-text">公務員試験平均偏差値70</td>
+      </tr>
+      <tr class="history">
+        <th class="history-title">公務員</th>
+        <td class="history-text">寮で集団生活・規則正しい生活</td>
+      </tr>
+      <tr class="history">
+        <th class="history-title">飲食店</th>
+        <td class="history-text">店舗責任者・人材育成・数値管理</td>
+      </tr>
+    </table>
+  </dialog>
+
 </main>
