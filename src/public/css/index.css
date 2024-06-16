@@ -34,6 +34,7 @@
 .myProfile-name {
   margin-top: 0;
   font-size: 2.5vw;
+  cursor: pointer;
 }
 .myProfile-birthday {
   font-size: 1.5vw;
@@ -58,6 +59,57 @@
   border-bottom: 2px solid #00fff7;
 }
 
+.modal::backdrop {
+  background: rgba(94, 94, 94, 0.7);
+}
+body.is-modal { 
+  overflow: hidden;
+}
+.modal {
+  padding: 0;
+  transition: opacity 3s ease-in-out;
+  padding: 0;
+  width: 60%;
+  clip-path: polygon(
+    6% 2%,
+    98% 2%,
+    94% 98%,
+    2% 98%
+  );
+}
+.modal.show {
+  animation: fadeIn 3s forwards;
+  display: block;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-inner {
+  width: 80%;
+  margin: 8% auto;  
+}
+.history-title {
+  color: gray;
+  font-size: 2vw;
+  letter-spacing: 5px;
+  font-weight: bold;
+  text-shadow: 1px 1px #fc4fc8;
+  padding: 5% 0;
+}
+.history-text {
+  text-shadow: 1px 1px #faa2df;
+  color: rgb(64, 63, 63);
+  letter-spacing: 5px;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
 @media (max-width: 1201px) {
   .main {
     height: 60vh;
@@ -75,6 +127,9 @@
   .myLike {
     margin-top: 22%;
     margin-right: 4.5%;
+  }
+  .modal {
+    width: 70%;
   }
 }
 
