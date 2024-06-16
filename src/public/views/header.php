@@ -24,6 +24,28 @@
       </nav>
     </div>
   </header>
+
+  <dialog class="dialog">
+    <div class="dialog-inner">
+      <p class="dialog-title">REN</p>
+      <dl class="skill">
+        <dt class="skill-title">Skill</dt>
+        <dd class="skill-text">
+          <span class="skill-block">HTML&CSS</span>
+          <span class="skill-block">JavaScript</span>
+          <span class="skill-block">PHP・Laravel</span>
+        </dd>
+      </dl>
+      <dl class="dream">
+        <dt class="dream-title">Dream</dt>
+        <dd class="dream-text">
+          <span class="dream-block">まだ見ぬ景色を見ながら心の思うままに生きる</span>
+          <span class="dream-block">多くの人が生きやすくなるシステムを構築</span>
+        </dd>
+      </dl>
+    </div>
+  </dialog>
   
+  <script src="../js/myDetail.js"></script>
 </body>
 </html>
