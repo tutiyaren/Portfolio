@@ -12,6 +12,7 @@ body {
 }
 .header-title {
   font-size: 3.5vw;
+  cursor: pointer;
 }
 .header-right {
   display: flex;
@@ -33,4 +34,84 @@ body {
 .business-link {
   text-decoration: none;
   color: #000;
+}
+
+.dialog::backdrop {
+  background: rgba(94, 94, 94, 0.7);
+}
+body.is-modal {
+  overflow: hidden;
+}
+.dialog {
+  transition: opacity 3s ease-in-out;
+  padding: 0;
+  width: 50%;
+  clip-path: polygon(
+    1% 1%,
+    95% 1%,
+    99% 99%,
+    4% 99%
+  );
+}
+.dialog.show {
+  animation: fadeIn 3s forwards;
+  display: block;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.dialog-inner {
+  padding: 6% 8%;
+}
+.dialog-title {
+  text-align: center;
+  font-weight: bold;
+  color: #424242;
+  font-size: 2.5vw;
+  text-shadow: 1px 1px #fc4fc8;
+  letter-spacing: 3px;
+  margin-bottom: 6%;
+}
+.skill,
+.dream {
+  margin-bottom: 4%;
+}
+.skill-title,
+.dream-title {
+  color: gray;
+  font-size: 2vw;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: 1px 1px #fc4fc8;
+  margin-bottom: 3%;
+}
+.skill-text,
+.dream-text {
+  display: flex;
+  flex-direction: column;
+}
+.skill-block,
+.dream-block {
+  text-shadow: 1px 1px #faa2df;
+  color: rgb(64, 63, 63);
+  letter-spacing: 5px;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.dream-block:first-child,
+.skill-block:not(:last-child) {
+  margin-bottom: 2%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .dialog {
+    width: 70%;
+  }
 }
