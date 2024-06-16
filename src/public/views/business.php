@@ -29,7 +29,9 @@
     <div class="appLaravel-top">
       <p class="appLaravel-memo"><a href="../views/laravel/memo.php" class="appLaravel-memo__link">Memo</a></p>
 
+
       <p class="appLaravel-todo"><a href="../views/laravel/todo.php" class="appLaravel-todo__link">ToDo</a></p>
+
 
     </div>
 
