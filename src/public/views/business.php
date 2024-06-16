@@ -10,7 +10,8 @@
     <!-- top -->
     <div class="appPhp-top">
       <p class="appPhp-memo"><a href="../views/php/memo.php" class="appPhp-memo__link">Memo</a></p>
-      <p class="appPhp-todo"><a href="../views/php/todo.php" target="_blank" class="appPhp-todo__link">ToDo</a></p>
+
+      <p class="appPhp-todo"><a href="../views/php/todo.php" class="appPhp-todo__link">ToDo</a></p>
     </div>
 
     <!-- bottom -->
@@ -27,7 +28,9 @@
     <!-- top -->
     <div class="appLaravel-top">
       <p class="appLaravel-memo"><a href="../views/laravel/memo.php" class="appLaravel-memo__link">Memo</a></p>
-      <p class="appLaravel-todo"><a href="../views/laravel/todo.php" target="_blank" class="appLaravel-todo__link">ToDo</a></p>
+
+      <p class="appLaravel-todo"><a href="../views/laravel/todo.php" class="appLaravel-todo__link">ToDo</a></p>
+
     </div>
 
     <!-- middle -->

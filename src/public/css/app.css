@@ -1,0 +1,40 @@
+.app {
+  width: 100%;
+  display: flex;
+  margin-top: 7%;
+  align-items: center;
+}
+
+.app-text {
+  width: 50%;
+  padding-left: 10%;
+  box-sizing: border-box;
+}
+.app-text__title {
+  display: inline-block;
+  letter-spacing: 5px;
+  font-size: 2vw;
+  text-shadow: 1px 1px #000;
+}
+.app-text__description {
+  display: flex;
+  flex-direction: column;
+  line-height: 200%;
+  letter-spacing: 3px;
+  font-size: 1.7vw;
+  text-shadow: 1px 1px #00fff7;
+}
+
+
+.app-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.app-image__inner {
+  width: 90%;
+  max-height: 100%;
+  object-fit: contain;
+}
